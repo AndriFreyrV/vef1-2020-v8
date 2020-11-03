@@ -1,15 +1,16 @@
 {
-  "name": "vef1-2020-v8-synilausn",
+  "name": "vef1-2020-v8",
   "version": "1.0.0",
   "description": "## Lýsing",
   "main": "scripts.js",
   "scripts": {
     "dev": "browser-sync start --server --files scripts.js styles.css",
-    "test": "eslint scripts.js"
+    "test": "eslint scripts.js",
+    "lint-fix": "eslint --fix scripts.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vefforritun/vef1-2020-v7-synilausn.git"
+    "url": "https://github.com/AndriFreyrV/vef1-2020-v8.git"
   },
   "keywords": [],
   "author": "",
@@ -17,10 +18,10 @@
   "bugs": {
     "url": "https://github.com/vefforritun/vef1-2020-v7-synilausn/issues"
   },
-  "homepage": "https://github.com/vefforritun/vef1-2020-v7-synilausn#readme",
+  "homepage": "",
   "devDependencies": {
     "browser-sync": "^2.26.13",
-    "eslint": "^7.12.0",
+    "eslint": "^7.12.1",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.1"
   }

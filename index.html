@@ -16,11 +16,11 @@
 
         <div class="radio">
           <label>
-            <input checked type="radio" name="type" value="encode">
+            <input checked type="radio" name="type" id="encode" value="encode">
             <span>Kóða</span>
           </label>
           <label>
-            <input type="radio" name="type" value="decode">
+            <input type="radio" name="type" id="decode" value="decode">
             <span>Afkóða</span>
           </label>
         </div>
@@ -38,7 +38,9 @@
           <input type="text" id="input" name="input" autocomplete="off">
         </div>
 
-        <div class="result"></div>
+        <div class="result">
+
+        </div>
       </form>
     </main>
     <script src="scripts.js"></script>
